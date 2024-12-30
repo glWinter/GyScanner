@@ -15,7 +15,9 @@ implementation 'androidx.appcompat:appcompat:1.6.1'
 ```
 <com.glwinter.GyScanner.ScannerView
   android:id="@+id/scanner"
-  app:frame_position = "center"
+  app:scan_box_position = "center"
+  app:scan_box_color = "#FFB6C1"
+  app:mask_color = "#80ffffff"
   android:layout_width="match_parent"
   android:layout_height="match_parent"/>
 ```
